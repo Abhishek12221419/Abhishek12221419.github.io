@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h1>Form Tags</h1>
+    <form action="server.jsp" method="POST">
+        <!-- <p>
+            <input type="text" autofocus required placeholder="Enter Your Name...."/>
+        </p> -->
+        <!-- <p>
+            <input type="text" value="Abhishek" readonly/>
+        </p> -->
+        <!-- <p>
+            <input type="text" value="Abhishek" disabled/>
+        </p> -->
+        <p>
+            <input type="text" size="50px" maxlength="5"/>
+        </p>
+        <input type="image" src="button.jpg">
+        <button>Submit</button>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+
+    <fieldset>
+        <legend>Login Form</legend>
+        <form >
+            <p><input type="text" placeholder="Enter email"/></p>
+            <p><input type="password" placeholder="Enter password"/></p>
+            <button>Login</button>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Registeration Form</legend>
+        <form >
+            <p><input type="text" placeholder="Name"/></p>
+            <p><input type="text" placeholder="Enter email"/></p>
+            <p><input type="password" placeholder="Enter password"/></p>
+            <p><input type="date"/></p>
+            <p><input type="checkbox" name="" id="">Java</p>
+            <p><input type="checkbox" name="" id="">Python</p>
+            <p><input type="checkbox" name="" id="">MERN</p>
+
+            <p>
+                <input type="radio" name="batch">Morning Batch
+                <input type="radio" name="batch">Evening Batch
+            </p>
+            <p>
+                <select multiple>
+                    <optgroup label="India">
+                        <option value="">Delhi</option>
+                        <option value="">Hyderabad</option>
+                        <option value="">Chennai</option>
+                    </optgroup>
+                    <optgroup label="USA">
+                        <option value="">Columbus</option>
+                        <option value="">Jacksonville</option>
+                        <option value="">Miami</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p><textarea rows="4" cols="50" placeholder="About me"></textarea></p>
+            <p>
+                <input type="number">
+            </p>
+            <p>
+                <input type="file">
+            </p>
+            <p>
+                <input type="color">
+            </p>
+            <p>
+                <label for="check">Remember Me</label><input type="checkbox" id="check"/>
+            </p>
+            <p>
+                <input list="country"/>
+                <datalist id="country">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                </datalist>
+            </p>
+            <br>
+            <button>Register</button>
+        </input>
+    </p>
+  </body>
+</html>
