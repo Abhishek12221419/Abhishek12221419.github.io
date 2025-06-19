@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <style>
+        /* li{
+            display: inline;
+            width: 200px;
+        } */
+        li{
+            display: inline-block;
+            width: 200px;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: yellow;
+            height: 300px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* grid-template-rows: auto auto auto; */
+            column-gap: 20px;
+            row-gap: 20px;
+            background-color: pink;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+    </style>
+  </head>
+  <html>
+    <h1>CSS display property</h1>
+    <h2>inline vs inline-block</h2>
+    <li>Home</li>
+    <li>Services</li>
+    <li>Projects</li>
+    <li>About</li>
+    <hr/>
+    <h2>Flexbox</h2>
+    <div class="flex">
+        <div>child1</div>
+        <div>child2</div>
+        <div>child3</div>
+        <div>child4</div>
+        <div>child5</div>
+        <div>child6</div>
+    </div>
+    <hr>
+    <div class="grid">
+        <div>child1</div>
+        <div>child2</div>
+        <div>child3</div>
+        <div>child4</div>
+        <div>child5</div>
+        <div>child6</div>
+    </div>
+    <hr>
+  </body>
+</html>
