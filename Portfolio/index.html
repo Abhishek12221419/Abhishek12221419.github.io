@@ -1,55 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-
-      header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        padding: 10px 20px;
-        background-color: #0ad9e0;
-      }
-
-      h1 {
-        margin: 0;
-      }
-
-      ul {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-        margin: 0;
-        padding: 0;
-      }
-
-      li {
-        cursor: pointer;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Upadhyay</title>
+    <link rel="icon" type="image/x-icon" href="ball.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Abhishek Upadhyay</h1>
-      <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
-      </ul>
-    </header>
-    <div>
-    <h3>MERN Stack Developer</h3>
+    <div class="container">
+      <div class="header-row">
+        <div class="box"><h1>Abhishek Upadhyay</h1></div>
+        <div class="box">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="row" id="home">
+        <div style="display: flex; padding-top: 50px">
+          <div class="box">
+            <h1>Full Stack Developer</h1>
+            <p>
+              I’m a final-year B.Tech student at Lovely Professional University
+              with a strong interest in full-stack development. Proficient in
+              the MERN stack, I enjoy tackling real-world challenges through
+              technology. My journey includes building responsive and scalable
+              web applications, which has given me practical development
+              experience. I'm always eager to explore new tools and stay in sync
+              with evolving tech trends. Crafting meaningful and innovative
+              digital solutions is what drives me. My goal is to grow into a
+              leading software engineer, contributing to impactful projects and
+              working with collaborative, forward-thinking teams.
+            </p>
+            <button>Button 1</button>
+            <button>Button 1</button>
+          </div>
+          <div class="box">
+            <img src="https://picsum.photos/id/2/400/400" />
+          </div>
+        </div>
+      </div>
 
-    
+      <div id="projects" class="row" style="background-color: #f4f4f4">
+        <h1>Projects</h1>
+        <div style="display: flex">
+          <div class="box">
+            <h3>Dairy Management System</h3>
+            <p>
+              I developed a Dairy Management System, a robust and efficient web
+              application designed to streamline daily operations for dairy
+              businesses. Built using Laravel, the platform offers a clean and
+              responsive user interface, ensuring optimal performance across
+              devices. The system handles core functionalities such as milk
+              collection tracking, customer and supplier management, payment
+              records, and inventory control. I implemented role-based
+              authentication, CRUD operations, and data validation to ensure
+              security and reliability. With Laravel’s powerful backend
+              capabilities, the application ensures smooth data flow and quick
+              response times, making dairy management more organized and
+              hassle-free.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3>• Storify - A cloud based application</h3>
+            <p>
+              developed Storify, a cloud-based file storage and management
+              platform designed for seamless file and folder organization. It
+              enables users to upload, manage, and access their files anytime
+              with an intuitive interface. Key features include dynamic folder
+              creation, file categorization, and real-time path navigation. The
+              platform offers a smooth user experience with drag-and-drop
+              support, search functionality, and a responsive design. The admin
+              side includes tools for efficient storage management. Built using
+              the MERN stack (MongoDB, Express.js, React, Node.js), Storify
+              ensures secure, scalable, and high-performance file handling.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3>Weather Web App</h3>
+            <p>
+              I developed a Weather Web App using React.js, providing users with
+              real-time weather updates based on their location or searched
+              cities. The app integrates the OpenWeather API to fetch and
+              display accurate weather data, including temperature, humidity,
+              and conditions. It features a clean, responsive design and ensures
+              a smooth user experience across devices.F
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
