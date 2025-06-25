@@ -1,2 +1,4 @@
-score.push(9);
-// console.log(score);
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((res) => res.json())
+.then((data) => {})
+.catch((err) => console.log(err));
